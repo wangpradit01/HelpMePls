@@ -9,7 +9,7 @@ function Results({ data }) {
         // <Thumbnail />
         <div key={index} className="p-2">
           <div>
-            <img class="w-full aspect-video ..." src={`http://image.tmdb.org/t/p/w500${result.poster_path}`} />
+            <img className="w-full aspect-video ..." src={`http://image.tmdb.org/t/p/w500${result.poster_path}`} />
             <div className="p-2">
             <div style={{ fontWeight:'bold' }}>{result.original_title || result.original_name}</div>
             <div>{result.overview}</div>
